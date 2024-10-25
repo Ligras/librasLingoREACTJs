@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Jogo.css'; // Adicione estilos específicos para esta página
+import './Jogo.css';
 
 function Jogo() {
   const paginaIndisponivel = () => {
@@ -21,16 +21,16 @@ function Jogo() {
             <button>QUIZ DO ALFABETO EM LIBRAS</button>
           </Link>
           <Link to="/pratica-do-quiz">
-            <button className="button2">praticar</button>
+            <button>praticar</button>
           </Link>
         </div>
         <div>
           <button onClick={paginaIndisponivel}>JOGO DA MEMÓRIA EM LIBRAS</button>
-          <button className="button2" onClick={paginaIndisponivel}>praticar</button>
+          <button onClick={paginaIndisponivel}>praticar</button>
         </div>
         <div>
           <button onClick={paginaIndisponivel}>EXPRESSÕES MAIS USADAS EM LIBRAS</button>
-          <button className="button2" onClick={paginaIndisponivel}>praticar</button>
+          <button onClick={paginaIndisponivel}>praticar</button>
         </div>
       </main>
       <footer>

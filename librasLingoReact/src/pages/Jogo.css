@@ -5,19 +5,37 @@
   header {
     padding: 20px;
   }
+
+  #btn-voltar{
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+    cursor: pointer;
+    background-color: gray;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 3px;
+  }
   
-  button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
+  button{
+    width: 200px;
+    height: 100px;
+    font-size: medium;
+    cursor: pointer;
+    background-color: gray;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 3px;
   }
   
   .button2 {
-    background-color: #f0f0f0; /* Ajuste conforme necessário */
+    background-color: #f0f0f0;
   }
   
   main {
-    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
   }
   
   footer {

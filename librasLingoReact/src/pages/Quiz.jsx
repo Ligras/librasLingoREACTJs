@@ -1,6 +1,6 @@
 import React from 'react';
 import './Quiz.css'; // Importar estilos específicos para a página de Quiz
-import imagemA from "./img/A.jpg";
+import imagemA from "../img/A.jpg";
 
 function Quiz() {
   return (
