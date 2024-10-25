@@ -1,0 +1,25 @@
+.Jogo {
+    text-align: center;
+  }
+  
+  header {
+    padding: 20px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .button2 {
+    background-color: #f0f0f0; /* Ajuste conforme necessário */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    padding: 20px;
+  }

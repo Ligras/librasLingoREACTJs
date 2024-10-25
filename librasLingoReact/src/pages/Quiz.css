@@ -1,0 +1,56 @@
+.Quiz {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #btnVoltar {
+    margin-bottom: 20px;
+  }
+  
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #div1 {
+    margin-bottom: 20px;
+  }
+  
+  #imagem {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #div2 {
+    margin: 20px 0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .opcao {
+    padding: 20px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: default;
+  }
+  
+  #div3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #div3 div {
+    margin: 0 20px;
+  }
