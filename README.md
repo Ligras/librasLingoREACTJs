@@ -1,1 +1,1 @@
-Projeto do Libras Lingo em JavaScript adaptado ao framework REACT
+Projeto do Libras Lingo em JavaScript adaptado ao REACT
