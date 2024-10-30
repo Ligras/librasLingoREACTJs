@@ -1,56 +1,42 @@
-.Quiz {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  #btnVoltar {
-    margin-bottom: 20px;
-  }
-  
-  #main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  #div1 {
-    margin-bottom: 20px;
-  }
-  
-  #imagem {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  #div2 {
-    margin: 20px 0;
-  }
-  
-  .grid-container {
+*{margin: 0; padding: 0;}
+#main{
     display: grid;
-    grid-template-columns: repeat(2, 100px);
-    grid-template-rows: repeat(2, 100px);
-    gap: 10px;
-    justify-content: center;
-  }
-  
-  .opcao {
-    padding: 20px;
-    font-size: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    cursor: default;
-  }
-  
-  #div3 {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  #div3 div {
-    margin: 0 20px;
-  }
+    grid-template-rows: repeat(4, 200px); 
+    grid-template-columns: 1fr; 
+}
+#div1{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+#div2{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 0px;
+}
+#mensagem{
+    margin: auto;
+}
+#div3{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 10px;
+}
+.opcao{
+    width: 100px;
+    height: 100px;
+}
+#btnVoltar{
+    margin: 30px 30px;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    cursor: pointer;
+    background-color: rgb(0, 255, 255);
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 3px;
+}

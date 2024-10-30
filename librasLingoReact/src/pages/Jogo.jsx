@@ -23,6 +23,9 @@ function Jogo() {
           <Link to="/pratica-do-quiz">
             <button>praticar</button>
           </Link>
+          <Link to="/ranking">
+            <button>ranking</button>
+          </Link>
         </div>
         <div>
           <button onClick={paginaIndisponivel}>JOGO DA MEMÓRIA EM LIBRAS</button>
