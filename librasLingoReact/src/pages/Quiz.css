@@ -9,12 +9,13 @@
     width: 200px;
     height: 200px;
 }
-#div2{
+.grid-container{
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    column-gap: 0px;
+    column-gap: 5px;
+    row-gap: 5px;
 }
 #mensagem{
     margin: auto;

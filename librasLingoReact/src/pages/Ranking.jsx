@@ -1,29 +1,29 @@
 import React from 'react';
-import { APIProvider } from './context/APIContext';
-import PlayerList from './components/PlayerList';
+import { Link } from 'react-router-dom';
+import { APIProvider } from '../context/APIContext.jsx';
+import PlayerList from '../components/PlayerList.jsx';
 import './Ranking.css';
 
-function Ranking () {
+function Ranking() {
   return (
     <div className="Ranking">
-    <header>
+      <header>
         <Link to="/">
-            <button id="btnVoltar">VOLTAR</button>
+          <button id="btnVoltar">VOLTAR</button>
         </Link>
-    </header>
-    <main>
+      </header>
+      <main>
         <APIProvider>
-            <div>
-                <h1>Ranking dos jogadores com as melhores pontuações</h1>
-                <PlayerList />
-            </div>
+          <div>
+            <h1>Ranking dos jogadores com as melhores pontuações</h1>
+            <PlayerList />
+          </div>
         </APIProvider>
-    </main>
-    <footer>
-    </footer>
-</div>
-
+      </main>
+      <footer></footer>
+    </div>
   );
-};
+}
 
 export default Ranking;
+

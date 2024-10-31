@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PlayerItem = ({ nome, pontuacao }) => {
+function PlayerItem ({ nome, pontuacao }) {
   return (
     <li>
       {nome} - Pontuação: {pontuacao}

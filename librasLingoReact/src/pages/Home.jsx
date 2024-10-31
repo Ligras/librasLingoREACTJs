@@ -4,6 +4,9 @@ import './Home.css';
 import imagemLogo from "../img/libraslingologo.jpg";
 
 function Home() {
+  const paginaIndisponivel = () => {
+    alert('Esta página está indisponível no momento.');
+  };
   return (
     <div className="Home">
       <header>
@@ -13,9 +16,7 @@ function Home() {
             <h6>LIBRAS LINGO</h6>
           </figcaption>
         </figure>
-        <Link to="/cadastro">
-          <button class="btn-cad">CADASTRO</button>
-        </Link>
+        <button onClick={paginaIndisponivel} class="btn-cad">CADASTRO</button>
       </header>
       <main>
         <Link to="/jogo">

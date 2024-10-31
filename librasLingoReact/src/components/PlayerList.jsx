@@ -2,7 +2,7 @@ import React from 'react';
 import { useAPI } from '../context/APIContext';
 import PlayerItem from './PlayerItem';
 
-const PlayerList = () => {
+function PlayerList() {
   const jogadores = useAPI();
 
   return (
